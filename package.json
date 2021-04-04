@@ -1,0 +1,25 @@
+{
+  "name": "weather-journal",
+  "version": "1.0.0",
+  "description": "Just a demo for Express server!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeeekyBoy/weather-journal"
+  },
+  "keywords": [
+    "weather",
+    "fetch",
+    "api",
+    "async"
+  ],
+  "author": "GeeekyBoy",
+  "license": "AGPL-3.0"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Journal</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="msg">
+        <strong></strong>
+        <p></p>
+    </div>
+    <form>
+        <h1 id="pageTitle">Wather Journal</h1>
+        <input id="zip" name="zip" type="text" autocomplete="postal-code" placeholder="Enter ZIP code here…" autofocus required />
+        <textarea id="feelings" name="feelings" placeholder="Express your fellings…" required></textarea>
+        <div id="btnWrapper">
+            <input id="generate" type="submit" value="Submit" />
+            <input id="getRecent" type="button" value="Get Recent Entry" />
+        </div>
+    </form>
+    <script src="./app.js"></script>
+</body>
+
+</html>
